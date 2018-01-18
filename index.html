@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" class="<link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Британский и американский акцент!</title>
+<link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <body>
+    <div class="voiceinator">
+
+      <h1>Вставьте любую фразу и выберите настройки,
+      услышьте разницу в произношении</h1>
+
+      <select name="voice" id="voices">
+        <option value="">Выбрать диктора</option>
+      </select>
+
+      <label for="rate">Скорость</label>
+      <input name="rate" type="range" min="0" max="3" value="1" step="0.1">
+
+      <label for="pitch">Тональность</label>
+
+      <input name="pitch" type="range" min="0" max="2" step="0.1">
+      <textarea name="text">It is better to keep your mouth closed and let people think you are a fool than to open it and remove all doubt. Mark Twain</textarea>
+      <button id="stop">Остановить!</button>
+      <button id="speak">Прослушать</button>
+    </div>  
+    <script  src="js/index.js"></script>
+</body>
+
+</html>
